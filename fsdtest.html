@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mern Stack Quiz</title>
+    <link rel="stylesheet" href="fsdtest.css">
+</head>
+<body>
+
+<div id="quiz-container">
+    <h2>Online Quiz</h2>
+    <div id="quiz">
+        <div id="question">Question text</div>
+        <div id="options">
+            <div><label><input type="radio" name="answer" value="0"> Option 1</label></div>
+            <div><label><input type="radio" name="answer" value="1"> Option 2</label></div>
+            <div><label><input type="radio" name="answer" value="2"> Option 3</label></div>
+            <div><label><input type="radio" name="answer" value="3"> Option 4</label></div>
+        </div>
+    </div>
+    <div class="buttons">
+        <button id="prev" style="display: none;">Previous</button>
+        <button id="next">Next</button>
+        <button id="submit" style="display: none;">Submit</button>
+    </div>
+    <div id="result" style="display: none;">Your score: </div>
+</div>
+
+<script src="fsdtest.js"></script>
+</body>
+</html>

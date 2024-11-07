@@ -1,0 +1,96 @@
+/* General Styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  background-color: #e0f7fa;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Quiz Container Styling */
+#quiz-container {
+  background-color: #ffffff;
+  width: 80%;
+  max-width: 500px;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  background-color: #d8a878;
+  color: #007bff;
+  padding: 15px;
+  margin: 0 -20px 20px -20px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  font-size: 24px;
+}
+
+/* Question Styling */
+#question {
+  font-size: 1.4em;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Options Styling */
+#options {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+#options div {
+  margin: 8px 0;
+}
+
+/* Buttons Container */
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* Button Styling */
+button {
+  flex: 1;
+  padding: 10px 15px;
+  margin: 0 5px;
+  font-size: 0.9em;
+  font-weight: 600;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Button Colors */
+button#prev {
+  background-color: #1e88e5;
+}
+
+button#next {
+  background-color: #43a047;
+}
+
+button#submit {
+  background-color: #d32f2f;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Result Styling */
+#result {
+  font-size: 1.4em;
+  font-weight: 600;
+  color: #004d40;
+  margin-top: 20px;
+}
